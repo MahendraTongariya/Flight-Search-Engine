@@ -1,0 +1,36 @@
+[
+  {
+          "from":"Pune PNQ",
+            "to":"Dehli DEL",
+         "fare" : "9500",
+       "depart" :"10.00AM",
+        "arrive":"12.00PM",
+    "flightcode":"AI-202"
+
+},  
+{
+     "from":"Dehli DEL",
+            "to":"Pune PNQ",
+         "fare" : "9500",
+       "depart" :"08.00AM",
+        "arrive":"11.00PM",
+    "flightcode":"AI-203"
+},
+{   "from":"Pune PNQ",
+            "to":"Dehli DEL",
+         "fare" : "9500",
+       "depart" :"10.00AM",
+        "arrive":"12.00PM",
+    "flightcode":"AI-202"
+},
+{
+     "from":"Dehli DEL",
+            "to":"Pune PNQ",
+         "fare" : "9500",
+       "depart" :"10.00AM",
+        "arrive":"12.00PM",
+    "flightcode":"AI-203"
+}
+]
+
+

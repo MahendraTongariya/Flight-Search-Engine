@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Search Engine</title>
+  
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script  type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<div>
+    <h1>Flight Search Engine </h1>
+   
+    <form name="myForm" >
+       <div class="class1" id="origin">
+            <input type=text placeholder="Enter origin city" >
+               </div>
+
+<div class="class1" id="Destinaton">
+        <input type=text placeholder="Enter Destinaton city">
+    </div>
+
+       <div class="class2">
+        <p>Select your trip</p>
+       </div>
+       <div class="class2" >
+           <input type="radio"  id="One way" name="trip" value="One way">
+           <label for="One way">One way</label>
+       </div>
+       <div class="class2">
+           <input type="radio" id="Return" name="trip" value="Return">
+           <label for="Return" >Return</label>
+       </div>
+       <div class="passanger">
+           <select name="person" id="passangers">
+               <option value="">--no of passangers--</option>
+               <option value="one">1</option>
+               <option value="Two">2</option>
+               <option value="three">3</option>
+           </select>
+       </div>
+       <div class="class3">
+           <label for="Departure"> Departure date</label>
+           <input type="date" id="start" name="start trip" value="" min="2020-01-01" max="2022-12-30">
+       </div>
+       <div class="class3">
+           <label for="return">Return date</label>
+           <input type="date" id="return" name="return trip" value="" min="2021-01-01" max="2022-01-30">
+       </div>
+       <div class="class4">
+           <button class="search_btn" onclick="search()" >Search</button>
+       </div>
+       <div class="tickmarks">
+          <p> Refine flight search</p>
+        <div class="range"><input type="range" list="tickmarks"></div>
+        <datalist class="tickmarks">
+            <option value="0" label="0"></option>
+            <option value="100"></option>
+            <option value="200"></option>
+            <option value="300"></option>
+            <option value="400"></option>
+            <option value="500"></option>
+            <option value="600"></option>
+            <option value="700"></option>
+            <option value="800"></option>
+            <option value="900"></option>
+            <option value="1000" label="1000"></option>
+        </datalist>
+       </div>
+       
+    </form>
+    <div> 
+        <div class="schedule">
+        <p class="trip">
+            <span class="from">Pune</span>
+            <span class="none">></span>
+            <span class="to-from">Dehli</span>
+            <span class="none">></span>
+            <span class="to">Pune</span>
+        </p>
+        <p class="schedule-info1">Departure:<span id="d-date">1st Jan 2012</span>
+        </p>
+        <p class="schedule-info1">Return:<span id="r-date">10th Jan 2012</span></p>
+    </div>
+        <div class="flight">
+            <div>
+                <p>Rs. 9500.00</p>
+            </div>
+            <div class="way">
+            <div id="one way">
+                <p>AI-202</p>
+                <p>PNQ>DEL</p>
+                <p>Depart: 10.00 AM</p>
+                <p>Arrive: 12.00 PM</p>
+            </div>
+            <div id="twoWay">
+                <p>AI-203</p>
+                <p>DEL>PNQ</p>
+                <p>Depart: 08.00 PM</p>
+                <p>Arrive: 11.00 AM</p>
+            </div>
+        </div>
+        <div class="booking">
+            <p><button id="booking button1">Book this Flight</button></p>
+         </div>
+        </div>
+        
+
+        <div class="flight">
+            <div>
+                <p>Rs. 9500.00</p>
+            </div>
+            <div id="one way">
+                <p>AI-202</p>
+                <p>PNQ>DEL</p>
+                <p>Depart: 10.00 AM</p>
+                <p>Arrive: 12.00 PM</p>
+            </div>
+            <div id="two way">
+                <p>AI-203</p>
+                <p>DEL>PNQ</p>
+                <p>Depart: 08.00 PM</p>
+                <p>Arrive: 11.00 AM</p>
+            </div>
+            <div >
+                <p><button id="booking button2">Book this Flight</button></p>
+         </div>
+        </div>
+            <div class="flight">
+                <div>
+                    <p>Rs. 9500.00</p>
+                </div>
+                <div id="one way">
+                    <p>AI-202</p>
+                    <p>PNQ>DEL</p>
+                    <p>Depart: 10.00 AM</p>
+                    <p>Arrive: 12.00 PM</p>
+                </div>
+                <div id="two way">
+                    <p>AI-203</p>
+                    <p>DEL>PNQ</p>
+                    <p>Depart: 08.00 PM</p>
+                    <p>Arrive: 11.00 AM</p>
+                </div>
+                <div class="booking">
+
+                    <p><button id="booking button3">Book this Flight</button></p>
+                </div>
+
+
+            
+
+
+            
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
